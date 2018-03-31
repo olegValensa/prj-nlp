@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 from sklearn.metrics import classification_report
-from students.oleg_m.fact_check import checker
+from students.oleg_m.check_fact_wiki import checker
 
 
 def preapare_evaluation(zip_file):
